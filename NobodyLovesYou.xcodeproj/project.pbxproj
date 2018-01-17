@@ -12,6 +12,11 @@
 		81BA9AEB200F704A007756D5 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 81BA9AE9200F704A007756D5 /* Main.storyboard */; };
 		81BA9AED200F704A007756D5 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 81BA9AEC200F704A007756D5 /* Assets.xcassets */; };
 		81BA9AF0200F704A007756D5 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 81BA9AEE200F704A007756D5 /* LaunchScreen.storyboard */; };
+		81BA9B06200F74DF007756D5 /* AddFriendTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 81BA9B01200F74DF007756D5 /* AddFriendTableViewController.swift */; };
+		81BA9B07200F74DF007756D5 /* Friend.swift in Sources */ = {isa = PBXBuildFile; fileRef = 81BA9B02200F74DF007756D5 /* Friend.swift */; };
+		81BA9B08200F74DF007756D5 /* FriendsTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 81BA9B03200F74DF007756D5 /* FriendsTableViewController.swift */; };
+		81BA9B09200F74DF007756D5 /* EditFriendTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 81BA9B04200F74DF007756D5 /* EditFriendTableViewController.swift */; };
+		81BA9B0A200F74DF007756D5 /* FriendTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 81BA9B05200F74DF007756D5 /* FriendTableViewCell.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +27,11 @@
 		81BA9AEC200F704A007756D5 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		81BA9AEF200F704A007756D5 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		81BA9AF1200F704A007756D5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		81BA9B01200F74DF007756D5 /* AddFriendTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AddFriendTableViewController.swift; sourceTree = "<group>"; };
+		81BA9B02200F74DF007756D5 /* Friend.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Friend.swift; sourceTree = "<group>"; };
+		81BA9B03200F74DF007756D5 /* FriendsTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FriendsTableViewController.swift; sourceTree = "<group>"; };
+		81BA9B04200F74DF007756D5 /* EditFriendTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = EditFriendTableViewController.swift; sourceTree = "<group>"; };
+		81BA9B05200F74DF007756D5 /* FriendTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FriendTableViewCell.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,6 +64,11 @@
 		81BA9AE4200F704A007756D5 /* NobodyLovesYou */ = {
 			isa = PBXGroup;
 			children = (
+				81BA9B01200F74DF007756D5 /* AddFriendTableViewController.swift */,
+				81BA9B04200F74DF007756D5 /* EditFriendTableViewController.swift */,
+				81BA9B02200F74DF007756D5 /* Friend.swift */,
+				81BA9B03200F74DF007756D5 /* FriendsTableViewController.swift */,
+				81BA9B05200F74DF007756D5 /* FriendTableViewCell.swift */,
 				81BA9AE5200F704A007756D5 /* AppDelegate.swift */,
 				81BA9AE7200F704A007756D5 /* ViewController.swift */,
 				81BA9AE9200F704A007756D5 /* Main.storyboard */,
@@ -136,8 +151,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				81BA9B06200F74DF007756D5 /* AddFriendTableViewController.swift in Sources */,
+				81BA9B09200F74DF007756D5 /* EditFriendTableViewController.swift in Sources */,
 				81BA9AE8200F704A007756D5 /* ViewController.swift in Sources */,
 				81BA9AE6200F704A007756D5 /* AppDelegate.swift in Sources */,
+				81BA9B07200F74DF007756D5 /* Friend.swift in Sources */,
+				81BA9B08200F74DF007756D5 /* FriendsTableViewController.swift in Sources */,
+				81BA9B0A200F74DF007756D5 /* FriendTableViewCell.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
